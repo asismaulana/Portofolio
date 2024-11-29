@@ -366,7 +366,7 @@ section{
     }
 }
 @media (max-width: 991px){
-    .header{
+ .header{
         padding: 2rem 3%;
     }
     section{
@@ -384,6 +384,7 @@ section{
     .footer{
         padding: 2rem 3%;
     }
+    
 }
 @media (max-width: 768px){
     #menu-icon{
@@ -397,7 +398,7 @@ section{
         padding: 1rem 3%;
         background: var(--bg-color);
         border-top: 0.1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0.5rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0.5rem solid rgba(148, 30, 30, 0.2);
         display: none;
     }
     .navbar.active{
@@ -421,15 +422,15 @@ section{
         order: 2;
     }
     .home-img img{
-        width: 70vw;
-        margin-top: 4rem;
+        width: 50vw;
+        margin-top: 6rem;
     }
     .about{
         flex-direction: column;
     }
     .about-img img{
-        width: 90vw;
-        margin-top: 4rem;
+        width: 80vw;
+        margin-top: 6rem;
     }
     .services h2{
         margin-bottom: 3rem;
@@ -458,6 +459,11 @@ section{
     .contact form .input-box input{
         width: 100%;
     }
+}
+
+@media (max-widht: 617px){
+
+   
 }
 .icons{
     width: 45px;
