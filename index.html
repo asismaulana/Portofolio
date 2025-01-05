@@ -29,7 +29,7 @@
     <section class="home" id="home">
         <div class="home-content">
             <h2>Helo it’s me</h2>
-            <h1>Asis Maulana</h1>
+            <h1>Asis <span id="asis"></span></h1>
             <h3>And I'am  <span id="element"></span></h3>
             <p>Saya seorang siswa di SMKN 1 MAJA, dan saya mengambil jurusan Rekayasa perangkat Lunak (RPL).
             </p>
@@ -180,6 +180,16 @@
       strings: ['Front-end Developer', 'Web Design'],
       typeSpeed: 70,
       backSpeed: 70,
+      backDelay: 1000,
+      loop: true
+    });
+  </script>
+
+<script>
+    var typed = new Typed('#asis', {
+      strings: ['Maulana','Ganteng'],
+      typeSpeed: 85,
+      backSpeed: 85,
       backDelay: 1000,
       loop: true
     });
